@@ -9689,13 +9689,13 @@ textarea.form-control {
   
 
 
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
   .bb-gambar{
-    padding-top: 5em;
+    padding-top: 10em;
   }
 
     
-}
+} */
 
 #close{
   background-color: #ffbd39;
