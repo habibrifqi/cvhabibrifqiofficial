@@ -46,21 +46,22 @@
 	    </div>
 	  </nav>
 	  <section id="home-section" class="hero">
-		<div class="home-slider  owl-carousel">
-		<div class="slider-item ">
+		<div class="home-slider vv owl-carousel">
+		<div class="slider-item  ">
 			<div class="overlay"></div>
-		  <div class="container">
+		  <div class="container bb ">
 			<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
 				<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/aku.jpg);">
 					<div class="overlay"></div>
 				</div>
-				<div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '90%' }">
+				<div class="one-forth d-flex align-items-center ftco-animate " data-scrollax=" properties: { translateY: '90%' }">
 					<div class="text">
 					  <span class="subheading">Hello!</span>
 					  <h1 class="mb-4 mt-3">Saya <span>Habib Rifqi</span></h1>
 					  <h2 class="mb-4">Just Ordinary People</h2>
 					  <h5>Always Posistif</h5>
-					  <p><a href="#about-section" class="btn btn-primary py-3 px-4">Biodata</a> <a href="#projects-section" class="btn btn-white btn-outline-white py-3 px-4">Projects</a></p>
+					  <!-- <p><a id="disable" href="#about-section" class="btn btn-primary py-3 px-4 bb">Biodata</a>  -->
+						<br>					<a href="#projects-section" class="btn btn-white btn-outline-white py-3 px-4">My Official Website</a></p>
 				  </div>
 				</div>
 			  </div>
@@ -90,7 +91,7 @@
 		            <ul class="about-info mt-4 px-md-0 px-2">
 		            	<li class="d-flex"><span>Nama:</span> <span>Habib Rifqi</span></li>
 		            	<li class="d-flex"><span>Tanggal Lahir:</span> <span>19,January 2000</span></li>
-		            	<li class="d-flex"><span>Alamat:</span> <span>Jetis,Sendangsari,Pajangan,Bantul</span></li>
+		            	<li class="d-flex"><span>Alamat:</span> <span>Jetis,Sendangsari, Pajangan, Bantul</span></li>
 		            	<li class="d-flex"><span>Kode Pos:</span> <span>55751</span></li>
 		            	<li class="d-flex"><span>Email:</span> <span>Habib.rifqi.16@gmai.com</span></li>
 		            	<li class="d-flex"><span>No Telp: </span> <span>0895366039821</span></li>
@@ -736,6 +737,11 @@
   <script src="js/scrollax.min.js"></script>
   
   <script src="js/main.js"></script>
+
+  <script>
+	  $('#enable').click(function(){ $('#slide').slider('enable') });
+	  $('#disable').click(function(){ $('#slide').slider('disable') });
+  </script>
     
   </body>
 </html>

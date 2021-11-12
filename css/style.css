@@ -9689,13 +9689,29 @@ textarea.form-control {
   
 
 
-/* @media (min-width: 1000px) {
-  .bb-gambar{
-    padding-top: 10em;
+@media (max-width: 1000px) {
+  .bb{
+    position: relative;
+    z-index: 1000;
   }
 
+  .vv::before {
+    /* background: url(img/hiasan4.1.png) no-repeat; */
+    /* content: url(img/hh4.png) no-repeat; */
+    content: "";
+    width: 100%;
+    height: 100%;
+    /* top: 0; */
+    /* left: 35rem; */
+    position: absolute;
+    z-index: 1;
+    background-color: #d1b2ac;
+    opacity: 0;
+  }
+
+  
     
-} */
+}
 
 #close{
   background-color: #ffbd39;
