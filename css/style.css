@@ -8434,7 +8434,9 @@ h1, h2, h3, h4, h5,
   .owl-carousel.home-slider {
     position: relative;
     height: 750px;
-    z-index: 0; }
+    z-index: 0;
+    top: 60px; 
+  }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
@@ -9711,6 +9713,13 @@ textarea.form-control {
 
   
     
+}
+
+@media (max-width: 700px) {
+
+  .owl-carousel.home-slider {
+    top: -80px;
+  }
 }
 
 #close{
